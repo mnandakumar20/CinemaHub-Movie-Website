@@ -20,7 +20,7 @@ body {
 }
 
 .movie-card1 {
-    /* width: 1000px; */
+   
       width: 90%;
     max-width: 1000px;
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.45)),
@@ -107,7 +107,7 @@ body {
 }
 
 .movie-card2 {
-    /* width: 1000px; */
+  
     width: 90%;
     max-width: 1000px;
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.45)),
@@ -123,8 +123,6 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: 30px;
-    /* backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px); */
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
 }
 
@@ -193,7 +191,7 @@ body {
 }
 
 .movie-card3 {
-    /* width: 1000px; */
+   
     width: 90%;
     max-width: 1000px;
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.45)),
@@ -209,8 +207,6 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: 30px;
-    /* backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px); */
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
 }
 
@@ -279,7 +275,7 @@ body {
 }
 
 .movie-card4 {
-    /* width: 1000px; */
+   
     width: 90%;
     max-width: 1000px;
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.45)),
@@ -295,8 +291,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 30px;
-    /* backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px); */
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
 }
 
