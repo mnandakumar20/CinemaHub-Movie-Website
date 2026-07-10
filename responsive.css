@@ -1,0 +1,167 @@
+@media screen and (max-width: 992px) {
+
+    /* Navbar */
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    #searchInput {
+        width: 80%;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Movies page */
+
+    .movie-card1,
+    .movie-card2,
+    .movie-card3,
+    .movie-card4 {
+
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .details {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .book {
+        margin-top: 20px;
+    }
+
+    /* Login page */
+
+    .container {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    /* Hero section */
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Navbar */
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    #searchInput {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* Hero */
+
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    /* About sections */
+
+    .mission,
+    .why {
+        width: 95%;
+    }
+
+    .why li {
+        font-size: 16px;
+    }
+
+    /* Trailer cards */
+
+    .movie-card {
+        flex-basis: 100%;
+    }
+
+    .movie-card img {
+        height: auto;
+    }
+
+    /* Movies page */
+
+    .movie-card1,
+    .movie-card2,
+    .movie-card3,
+    .movie-card4 {
+
+        width: 95%;
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .poster img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .details h2 {
+        font-size: 22px;
+    }
+
+    .details p {
+        font-size: 15px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons button,
+    .book button {
+        width: 100%;
+    }
+
+    /* Login page */
+
+    .container {
+
+        width: 90%;
+        max-width: 350px;
+
+        padding: 25px;
+    }
+
+    .login-page h1 {
+        font-size: 35px;
+    }
+}
