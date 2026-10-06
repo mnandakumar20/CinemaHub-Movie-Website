@@ -1,30 +1,41 @@
+/* ================================================= */
+/* TABLET / SMALL LAPTOP */
+/* ================================================= */
+
 @media screen and (max-width: 992px) {
 
-    /* Navbar */
+    /* ============================= */
+    /* NAVBAR */
+    /* ============================= */
 
     nav {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
         gap: 15px;
-        padding: 15px;
+        padding: 15px 20px;
     }
 
     #searchInput {
-        width: 80%;
+        width: 250px;
+        max-width: 40%;
     }
 
-    ul {
+    nav ul {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
     }
 
-    /* Movies page */
+
+    /* ============================= */
+    /* MOVIES PAGE */
+    /* ============================= */
 
     .movie-card1,
     .movie-card2,
     .movie-card3,
     .movie-card4 {
-
         width: 90%;
         flex-direction: column;
         text-align: center;
@@ -40,14 +51,20 @@
         margin-top: 20px;
     }
 
-    /* Login page */
+
+    /* ============================= */
+    /* LOGIN */
+    /* ============================= */
 
     .container {
         width: 90%;
         max-width: 400px;
     }
 
-    /* Hero section */
+
+    /* ============================= */
+    /* HERO */
+    /* ============================= */
 
     .hero h1 {
         font-size: 40px;
@@ -58,28 +75,80 @@
     }
 }
 
+
+/* ================================================= */
+/* MOBILE */
+/* ================================================= */
+
 @media screen and (max-width: 600px) {
 
-    /* Navbar */
+    /* ============================= */
+    /* FIXED HEADER */
+    /* ============================= */
 
-    nav {
-        flex-direction: column;
-        align-items: center;
-        padding: 15px;
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
     }
 
-    ul {
-        flex-direction: column;
-        gap: 10px;
+    body {
+        padding-top: 145px;
+    }
+
+
+    /* ============================= */
+    /* MOBILE NAVBAR */
+    /* ============================= */
+
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 10px;
+    }
+
+    nav h1 {
+        width: 100%;
         text-align: center;
+        font-size: 27px;
+        margin: 0;
     }
 
     #searchInput {
         width: 100%;
         max-width: 250px;
+        padding: 8px;
     }
 
-    /* Hero */
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+
+    /* ============================= */
+    /* HERO */
+    /* ============================= */
 
     .hero {
         padding: 50px 15px;
@@ -93,7 +162,10 @@
         font-size: 16px;
     }
 
-    /* About sections */
+
+    /* ============================= */
+    /* ABOUT SECTIONS */
+    /* ============================= */
 
     .mission,
     .why {
@@ -104,32 +176,67 @@
         font-size: 16px;
     }
 
-    /* Trailer cards */
+
+    /* ============================= */
+    /* TRAILER CARDS */
+    /* ============================= */
+
+    .movies-container {
+        background: transparent;
+        margin: 20px 15px;
+        gap: 20px;
+    }
 
     .movie-card {
         flex-basis: 100%;
+        max-width: 350px;
     }
 
     .movie-card img {
         height: auto;
+        max-height: 400px;
+        object-fit: cover;
     }
 
-    /* Movies page */
+
+    /* ============================= */
+    /* MOVIES PAGE */
+    /* ============================= */
 
     .movie-card1,
     .movie-card2,
     .movie-card3,
     .movie-card4 {
-
         width: 95%;
         flex-direction: column;
         text-align: center;
         padding: 15px;
     }
 
+    /* CENTER POSTER */
+
+    .poster {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .poster img {
+        display: block;
         width: 120px;
         height: 180px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+
+    /* MOVIE DETAILS */
+
+    .details {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
     }
 
     .details h2 {
@@ -139,6 +246,9 @@
     .details p {
         font-size: 15px;
     }
+
+
+    /* BUTTONS */
 
     .buttons {
         display: flex;
@@ -151,17 +261,52 @@
         width: 100%;
     }
 
-    /* Login page */
+
+    /* ============================= */
+    /* LOGIN PAGE */
+    /* ============================= */
 
     .container {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
 
         width: 90%;
-        max-width: 350px;
+        max-width: 400px;
 
-        padding: 25px;
+        margin: 30px auto 60px;
+        padding: 22px;
     }
 
     .login-page h1 {
         font-size: 35px;
+        margin-bottom: 12px;
+    }
+
+    .container input {
+        padding: 10px;
+        margin: 7px 0;
+    }
+
+    .login-btn,
+    .google-btn {
+        padding: 10px;
+    }
+
+    .divide {
+        margin: 13px 0;
+    }
+
+
+    /* ============================= */
+    /* FOOTER */
+    /* ============================= */
+
+    footer {
+        position: relative;
+        width: 100%;
+        margin-top: auto;
+        padding: 20px;
     }
 }
